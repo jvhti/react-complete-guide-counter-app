@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
-import {add, decrement, deleteResult, increment, storeResult, subtract} from '../../store/actions/actions';
+import {add, decrement, deleteResult, increment, storeResult, subtract} from '../../store/actions/index';
 
 import CounterControl from '../../components/CounterControl/CounterControl';
 import CounterOutput from '../../components/CounterOutput/CounterOutput';
